@@ -31,11 +31,36 @@ def autocorrect(word):
         else:
             return ('No close matches found.')
 
-#Streamlit App
-st.title("Word.NLP")
-st.write("Welcome to Word.NLP Type a word and get suggestions if it's incorrect!")
+# Streamlit App
+st.markdown("""
+    <style>
+    .title {
+        color: yellow;
+        text-align: center;
+    }
+    .info {
+        background-color: #gray;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #40444B;
+        color: black;
+        text-align: center;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-#Input from user
+st.markdown('<h1 class="title">Word.NLP</h1>', unsafe_allow_html=True)
+st.markdown('<div class="info">Welcome to Word.NLP! Type a word and get suggestions if it\'s incorrect!</div>', unsafe_allow_html=True)
+
+# Input from user
 user_input = st.text_input("Enter a word:", "")
 
 if user_input:
@@ -49,33 +74,17 @@ if user_input:
     else:
         st.error("❌ No close matches found.")
 
-# Add some enhancements
-st.sidebar.title("About")
-st.sidebar.info("""
-This autocorrect app uses a simple text analysis approach to provide suggestions for misspelled words.
-It leverages the NLTK library for calculating edit distances and a frequency-based model for ranking suggestions.
-""")
+st.markdown("""
+    <div class="info">
+    <h3>About</h3>
+    <p>This autocorrect app uses a simple text analysis approach to provide suggestions for misspelled words.
+    It leverages the NLTK library for calculating edit distances and a frequency-based model for ranking suggestions. This is a relatively simple project that can be improved upon with implementing perhaps a larger dataset and/or updated NLP methods in the future!</p>
+    </div>
+""", unsafe_allow_html=True)
 
-
-#Adding a footer
-st.markdown(
-    """
-    <style>
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #40444B;
-        color: white;
-        text-align: center;
-    }
-    </style>
+# Adding a footer
+st.markdown("""
     <div class="footer">
         <p>Made with ❤️ using Streamlit</p>
     </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+""", unsafe_allow_html=True)
