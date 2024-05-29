@@ -78,7 +78,8 @@ st.markdown("""
     <div class="info">
     <h3>About</h3>
     <p>This autocorrect app uses a simple text analysis approach to provide suggestions for misspelled words.
-    It leverages the NLTK library for calculating edit distances and a frequency-based model for ranking suggestions. This is a relatively simple project that can be improved upon with implementing perhaps a larger dataset and/or updated NLP methods in the future!</p>
+    It leverages the NLTK library for calculating edit distances and a frequency-based model for ranking suggestions. 
+    This is a relatively simple project that can be improved upon with implementing perhaps a larger dataset and/or updated NLP methods in the future!</p>
     </div>
 """, unsafe_allow_html=True)
 
