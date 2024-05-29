@@ -1,2 +1,5 @@
-# keyboard-auto-nlp
-a natural language processing side project focused on a keyboard spelling auto suggestion system using python and jupyter notebook
+# 🖮 Word.NLP 🖮
+### Welcome to Word.NLP! This is a simple **Natural Language Processing** project made using a .txt notebook file which contains the majority of words in the **English Langage**.
+### Here's a simple rundown to how it works! 👇
+
+
