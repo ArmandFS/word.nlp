@@ -15,6 +15,7 @@ A few downsides of this project is:
 
 
 🚀 How to run the streamlit app if you ever find yourself modifying it 🚀
+
 Streamlit is simple, all you need to do is to modify the main app.py code, next, you can run this in the terminal:
 
 ```
