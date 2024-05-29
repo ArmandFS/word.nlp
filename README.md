@@ -1,7 +1,8 @@
 # 🚀 Word.NLP 🚀
 
-![worddotnlp](https://github.com/ArmandFS/word.nlp/assets/68105213/c0195a83-cb03-4717-b1fe-b71fd7483c52)
+![worddoto](https://github.com/ArmandFS/word.nlp/assets/68105213/4f48c0ed-e1ee-4705-ae3b-ece6056c5a59)
 Welcome to Word.NLP! This is a simple **Natural Language Processing** project made using a .txt notebook file which contains the majority of words in the **English Langage**.
+
 👇 Here's a simple rundown to how it works! 👇
 
 1. **Load Vocabulary:** Word.NLP uses a pre-loaded notebook.txt file containing common words and their frequencies.
