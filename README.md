@@ -25,3 +25,5 @@ streamlit run app.py
 And in the localhost server, your modified app will be up in no time!
 
 To deploy this and make it useable, you will need to create your own github repository and follow what I've done here. This requires a requirements.txt file and the python app file.
+
+The link for this streamlit app can be found [here](https://keyboard-auto-nlp-fpxbvtbyje6ibht3s5czkl.streamlit.app/)! 
